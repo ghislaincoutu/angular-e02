@@ -1,0 +1,20 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <h1>Affichage de données formatées en HTML</h1>
+      <p>Utilisation du module DomSanitizer.</p>
+      <div *ngFor="let x of data81" class="message45">
+        <h2 [innerHTML]="displayData(x.country)"></h2>
+        <div [innerHTML]="displayData(x.city)"></div>
+      </div>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <div class="code-preview">
+        <h3>t04.component.html</h3>
+        <iframe src="assets/code-preview/t04/html.txt"></iframe>
+        <h3>t04.component.ts</h3>
+        <iframe src="assets/code-preview/t04/typescript.txt"></iframe>
+      </div>
+    </aside>
+  </div>
+</main>

@@ -1,0 +1,33 @@
+{
+	"data": [{
+		"id": 1,
+		"email": "michel.demers@serveur.com",
+		"firstname": "Michel",
+		"lastname": "Demers",
+		"avatar": "https://172.17.0.1:2443/angular-e02t02/image.png"
+	}, {
+		"id": 2,
+		"email": "robert.lavigueur@serveur.com",
+		"firstname": "Robert",
+		"lastname": "Lavigueur",
+		"avatar": "https://172.17.0.1:2443/angular-e02t02/image.png"
+	}, {
+		"id": 3,
+		"email": "jean.dupont@serveur.com",
+		"firstname": "Jean",
+		"lastname": "Dupont",
+		"avatar": "https://172.17.0.1:2443/angular-e02t02/image.png"
+	}, {
+		"id": 4,
+		"email": "louise.trudel@serveur.com",
+		"firstname": "Louise",
+		"lastname": "Trudel",
+		"avatar": "https://172.17.0.1:2443/angular-e02t02/image.png"
+	}, {
+		"id": 5,
+		"email": "julie.ladouceur@serveur.com",
+		"firstname": "Julie",
+		"lastname": "Ladouceur",
+		"avatar": "https://172.17.0.1:2443/angular-e02t02/image.png"
+	}]
+}

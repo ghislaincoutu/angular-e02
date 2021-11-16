@@ -1,0 +1,24 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <h1>Affichage de données provenant de fichiers HTML externes</h1>
+      <p>Utilisation des modules HttpClient et DomSanitizer.</p>
+      <div>
+        <button (click)="displayHTML('message01')">Message 1</button>
+        <button (click)="displayHTML('message02')">Message 2</button>
+        <button (click)="displayHTML('message03')">Message 3</button>
+      </div>
+      <div class="message">
+        <div class="htmldata" [innerHtml]="htmlData40"></div>
+      </div>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <div class="code-preview">
+        <h3>t03.component.html</h3>
+        <iframe src="assets/code-preview/t03/html.txt"></iframe>
+        <h3>t03.component.ts</h3>
+        <iframe src="assets/code-preview/t03/typescript.txt"></iframe>
+      </div>
+    </aside>
+  </div>
+</main>

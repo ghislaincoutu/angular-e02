@@ -1,0 +1,26 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <h1>Affichage de données provenant d'un site Web externe</h1>
+      <p>Utilisation d'un service Angular et du module HttpClient.</p>
+      <div class="users">
+        <ul *ngIf="users">
+          <li *ngFor="let user of users.data">
+            <img [src]="user.avatar">
+            <span>{{ user.firstname }} {{ user.lastname }}</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <div class="code-preview">
+        <h3>t02.component.html</h3>
+        <iframe src="assets/code-preview/t02/html.txt"></iframe>
+        <h3>t02.component.ts</h3>
+        <iframe src="assets/code-preview/t02/typescript.txt"></iframe>
+        <h3>module02.service.ts</h3>
+        <iframe src="assets/code-preview/module02/typescript.txt"></iframe>
+      </div>
+    </aside>
+  </div>
+</main>
