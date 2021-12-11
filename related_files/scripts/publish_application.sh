@@ -8,7 +8,7 @@ apply_pause "Appuyer sur la touche [Retour] pour continuer..."
 # Source (so)
 so=/home/Exercices/angular-e02/dist/angular-e02
 # Destination (de)
-de=/var/www/html/angular-e02
+de=/var/www/html/r002/angular-e02
 
 rm -r $de/assets
 rm $de/3rdparty*.txt
@@ -20,3 +20,4 @@ rm $de/runtime.*.js
 rm $de/styles.*.css
 cp -R $so/assets $de/assets
 cp $so/*.* $de/
+sed -i 's/<base href="\/">/<base href="\/r002\/angular-e02\/">/g' $de/index.html

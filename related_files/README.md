@@ -1,5 +1,8 @@
 # angular-e02 &mdash; Programmation de divers composants et services Angular (E02)
 
+## Demonstration
+https://ghislaincoutu.ca/r002/angular-e02
+
 ## Commandes Angular pour générer les composants de l'exercice
 - ng generate component menu
 - ng generate component footer
