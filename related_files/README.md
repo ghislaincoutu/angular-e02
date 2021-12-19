@@ -3,7 +3,7 @@
 ## Demonstration
 https://ghislaincoutu.ca/r002/angular-e02
 
-## Commandes Angular pour générer les composants de l'exercice
+## Commandes Angular à exécuter pour générer les composants de l'exercice
 - ng generate component menu
 - ng generate component footer
 - ng generate component t01

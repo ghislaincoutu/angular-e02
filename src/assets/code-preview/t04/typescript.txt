@@ -16,8 +16,8 @@ export class T04Component implements OnInit {
 
   constructor(protected sanitizer23: DomSanitizer) { }
 
-  public displayData(value: string) {
-    return this.sanitizer23.bypassSecurityTrustHtml(value);
+  public displayData(value23: string) {
+    return this.sanitizer23.bypassSecurityTrustHtml(value23);
   }
 
   ngOnInit(): void {
