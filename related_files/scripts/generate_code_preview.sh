@@ -2,7 +2,7 @@
 function apply_pause() {
   read -p "$*"
 }
-echo "Copie du code HTML et TypeScript dans les fichiers code-preview."
+echo "Copie du code HTML et TypeScript dans les fichiers code-preview"
 apply_pause "Appuyer sur la touche [Retour] pour continuer..."
 
 # Source (so)
