@@ -1,7 +1,7 @@
 # angular-e02 &mdash; Programmation de divers composants et services Angular (E02)
 [README](../README.md)
 
-## Demonstration
+## Démonstration
 https://ghislaincoutu.ca/r002/angular-e02
 
 ## Commandes Angular à exécuter pour générer les composants de l'exercice
