@@ -1,5 +1,5 @@
 # angular-e02 &mdash; Programmation de divers composants et services Angular (E02)
-[README](../README.md)
+[README](../README.md) &mdash; Angular
 
 ## Démonstration
 https://ghislaincoutu.ca/r002/angular-e02
