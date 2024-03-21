@@ -1,0 +1,22 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <h1>Affichage de données provenant d'une méthode TypeScript</h1>
+      <p>Utilisation d'un service Angular.</p>
+      <button (click)="readMessage(1)">Message 1</button> <button (click)="readMessage(2)">Message 2</button> <button (click)="readMessage(3)">Message 3</button>
+      <div class="message">
+        <p [innerHTML]="message01"></p>
+      </div>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <div class="code-preview">
+        <h3>t01.component.html</h3>
+        <iframe src="assets/code-preview/t01/html.txt"></iframe>
+        <h3>t01.component.ts</h3>
+        <iframe src="assets/code-preview/t01/typescript.txt"></iframe>
+        <h3>module01.service.ts</h3>
+        <iframe src="assets/code-preview/module01/typescript.txt"></iframe>
+      </div>
+    </aside>
+  </div>
+</main>
