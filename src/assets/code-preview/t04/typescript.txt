@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-t04',
-  templateUrl: './t04.component.html',
-  styleUrls: ['./t04.component.scss']
+    selector: 'app-t04',
+    templateUrl: './t04.component.html',
+    styleUrls: ['./t04.component.scss'],
+    standalone: false
 })
 export class T04Component implements OnInit {
 

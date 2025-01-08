@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { Module01Service } from '../module01.service';
 
 @Component({
-  selector: 'app-t01',
-  templateUrl: './t01.component.html',
-  styleUrls: ['./t01.component.scss']
+    selector: 'app-t01',
+    templateUrl: './t01.component.html',
+    styleUrls: ['./t01.component.scss'],
+    standalone: false
 })
 export class T01Component implements OnInit {
   message01: any = "";
