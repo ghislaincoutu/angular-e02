@@ -3,10 +3,12 @@
     <section class="col-lg-07 col-md-12 animated01 fadein">
       <h1>Affichage de données formatées en HTML</h1>
       <p>Utilisation du module DomSanitizer.</p>
-      <div *ngFor="let x of data81" class="message45">
-        <h2 [innerHTML]="displayData(x.country)"></h2>
-        <div [innerHTML]="displayData(x.city)"></div>
-      </div>
+      @for (x of data81; track x) {
+        <div class="message45">
+          <h2 [innerHTML]="displayData(x.country)"></h2>
+          <div [innerHTML]="displayData(x.city)"></div>
+        </div>
+      }
     </section>
     <aside class="col-lg-05 col-md-12 animated01 fadein">
       <div class="code-preview">
