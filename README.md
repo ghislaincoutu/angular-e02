@@ -1,4 +1,5 @@
 # angular-e02 &mdash; Programmation de divers composants et services Angular (E02)
+<img src="related-files/medias/angular-e02.png" alt="Aperçu de l’interface" style="max-width:1000px;">
 
 ## Démonstration
 https://ghislaincoutu.ca/d002/angular-e02
